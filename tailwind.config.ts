@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'primary-mor': '#9B5DE5',
+        'primary-siyah': '#1A1A1A',
+        'primary-beyaz': '#FFFFFF',
+      },
+      fontFamily: {
+        sans: ['var(--font-poppins)'],
       },
     },
   },
