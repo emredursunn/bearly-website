@@ -14,11 +14,11 @@ export default function ShareStoryRedirectClient() {
     const type = url.searchParams.get('type');
 
     if (!type) {
-      setError('Story type not found in URL');
+      setError('Story Url is not valid');
       return;
     }
     if (!id) {
-      setError('Story ID not found in URL');
+      setError('Story Url is not valid');
       return;
     }
 
