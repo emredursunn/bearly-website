@@ -10,7 +10,7 @@ export default function ShareStoryRedirectClient() {
   useEffect(() => {
     // URL'den story ID ve type parametrelerini al
     const url = new URL(window.location.href);
-    const id = url.pathname.split('/').pop(); // URL'nin son kısmından ID'yi al
+    const id = url.searchParams.get('id'); // URL'nin son kısmından ID'yi al
     const type = url.searchParams.get('type');
 
     if (!type) {
