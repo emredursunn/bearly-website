@@ -13,6 +13,10 @@ export default function ShareStoryRedirectClient() {
     const id = url.pathname.split('/').pop(); // URL'nin son kısmından ID'yi al
     const type = url.searchParams.get('type');
 
+    if (!type) {
+      setError('Story type not found in URL');
+      return;
+    }
     if (!id) {
       setError('Story ID not found in URL');
       return;
