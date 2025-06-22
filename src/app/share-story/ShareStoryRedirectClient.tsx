@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 
 export default function ShareStoryRedirectClient() {
   const [storyId, setStoryId] = useState<string | null>(null);
-  const [storyType, setStoryType] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -12,28 +11,22 @@ export default function ShareStoryRedirectClient() {
     // URL'den story ID ve type parametrelerini al
     const url = new URL(window.location.href);
     const id = url.searchParams.get('id'); // URL'nin son kısmından ID'yi al
-    const type = url.searchParams.get('type');
 
-    if (!type) {
-      setError('Story Url is not valid');
-      return;
-    }
     if (!id) {
       setError('Story Url is not valid');
       return;
     }
 
     setStoryId(id);
-    setStoryType(type || 'default'); // type yoksa default kullan
 
     // Parametreleri bulduğumuz an otomatik yönlendirmeyi tetikle
-    const deepLink = `bearlyapp://story/${id}${type ? `?type=${type}` : ''}`;
+    const deepLink = `bearlyapp://story/${id}`;
     window.location.href = deepLink;
   }, []);
 
   const handleRedirectClick = () => {
     if (storyId) {
-      const deepLink = `bearlyapp://story/${storyId}${storyType ? `?type=${storyType}` : ''}`;
+      const deepLink = `bearlyapp://story/${storyId}`;
       window.location.href = deepLink;
     }
   };
