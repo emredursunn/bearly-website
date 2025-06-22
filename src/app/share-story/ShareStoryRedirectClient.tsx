@@ -8,6 +8,7 @@ export default function ShareStoryRedirectClient() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    console.log('redirecting...');
     // URL'den story ID ve type parametrelerini al
     const url = new URL(window.location.href);
     const id = url.searchParams.get('id'); // URL'nin son kısmından ID'yi al
