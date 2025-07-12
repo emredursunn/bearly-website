@@ -47,9 +47,16 @@ export default function DeleteAccountPage() {
         {/* Contact Information */}
         <div className="mt-8 p-6 bg-green-50 rounded-2xl">
           <h3 className="text-xl font-semibold mb-4 text-green-800">Need Help?</h3>
+          <p className="text-sm text-center text-gray-500 mt-12">
+            This account deletion process is provided by <strong>Uygar - Emre</strong>, the official developer of the Bearly app.
+          </p>
           <p className="text-green-700">
             If you have any questions about account deletion or need assistance, please contact our support team.
+            <br />
+            <br />
+            <a href="mailto:bearly384@gmail.com" className="text-blue-500">bearly384@gmail.com</a>
           </p>
+          <a href="mailto:bearly384@gmail.com" className="text-blue-500">bearly384@gmail.com</a>
         </div>
       </main>
 
