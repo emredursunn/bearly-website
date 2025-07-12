@@ -1,0 +1,54 @@
+Bearly olarak, kullanıcılarımızın gizliliğini ve kişisel verilerinin korunmasını önemsiyoruz. Bu gizlilik politikası, Bearly mobil uygulamasını kullandığınızda hangi bilgileri topladığımızı, bu bilgileri nasıl kullandığımızı ve koruduğumuzu açıklamaktadır.
+
+1. Toplanan Bilgiler
+Bearly uygulamasını kullanırken aşağıdaki türde bilgileri toplayabiliriz:
+
+Kişisel Bilgiler: İsteğe bağlı olarak sağladığınız isim, e-posta adresi vb. bilgiler.
+
+Cihaz Bilgileri: Cihaz modeli, işletim sistemi, uygulama sürümü, dil tercihi gibi teknik bilgiler.
+
+Kullanım Verileri: Uygulama içi hareketleriniz, öğrenme alışkanlıklarınız ve satın alma geçmişiniz.
+
+Satın Alma Bilgileri: Uygulama içi satın alımlar sırasında ödeme sağlayıcıları (Google Play / App Store) aracılığıyla alınan bilgiler.
+
+Not: Ödeme bilgileri (kredi kartı vb.) doğrudan Google/Apple üzerinden alınır, Bearly bu bilgilere erişemez.
+
+2. Bilgilerin Kullanımı
+Topladığımız veriler aşağıdaki amaçlarla kullanılır:
+
+Uygulamanın performansını ve içeriğini geliştirmek,
+
+Kişiselleştirilmiş içerikler sunmak,
+
+Abonelik ve satın alma işlemlerini yönetmek,
+
+Geri bildirimlerinize yanıt vermek,
+
+Yasal yükümlülüklere uymak.
+
+3. Üçüncü Taraflarla Paylaşım
+Verileriniz, aşağıdaki durumlar dışında üçüncü kişilerle paylaşılmaz:
+
+Yasal zorunluluk durumlarında yetkili mercilerle,
+
+Uygulama analitiği ve hata takibi için kullanılan hizmet sağlayıcılarla (örneğin Firebase, Google Analytics).
+
+4. Verilerin Saklanması
+Toplanan veriler, yalnızca gerekli olduğu sürece ve yürürlükteki yasalara uygun olarak saklanır. Verilerinize yetkisiz erişimi önlemek için gerekli güvenlik önlemleri alınır.
+
+5. Kullanıcı Hakları
+Kullanıcı olarak aşağıdaki haklara sahipsiniz:
+
+Hakkınızda hangi verilerin toplandığını öğrenme,
+
+Verilerinizi düzeltme veya silme talebi,
+
+Veri işlenmesine itiraz etme.
+
+Bu haklardan faydalanmak için bizimle aşağıdaki e-posta adresi üzerinden iletişime geçebilirsiniz.
+
+6. Çocukların Gizliliği
+Uygulamamız 13 yaş altındaki çocuklara yönelik değildir. 13 yaşın altındaki kullanıcılardan bilerek kişisel bilgi toplamıyoruz.
+
+7. Gizlilik Politikasında Değişiklikler
+Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde veya ilgili platformlarda duyurulur.
