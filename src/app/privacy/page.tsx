@@ -4,8 +4,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "Gizlilik Politikası | Bearly",
-  description: "Bearly için gizlilik politikası",
+  title: "Privacy Policy | Bearly",
+  description: "Privacy policy for Bearly",
 };
 
 export default function PrivacyPolicyPage() {
@@ -16,81 +16,81 @@ export default function PrivacyPolicyPage() {
 
       {/* Main Content */}
       <main className="container mx-auto flex-grow px-6 pt-24 pb-16 max-w-3xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">Gizlilik Politikası</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy</h1>
 
         {/* Introduction */}
         <p className="mb-6 leading-relaxed">
-          Bearly olarak, kullanıcılarımızın gizliliğini ve kişisel verilerinin korunmasını önemsiyoruz. Bu gizlilik politikası, Bearly mobil uygulamasını kullandığınızda hangi bilgileri topladığımızı, bu bilgileri nasıl kullandığımızı ve koruduğumuzu açıklamaktadır.
+          At Bearly, we value the privacy and protection of our users' personal data. This privacy policy explains what information we collect when you use the Bearly mobile application, how we use this information, and how we protect it.
         </p>
 
-        {/* 1. Toplanan Bilgiler */}
-        <h2 className="text-2xl font-semibold mb-4">1. Toplanan Bilgiler</h2>
-        <p className="mb-4">Bearly uygulamasını kullanırken aşağıdaki türde bilgileri toplayabiliriz:</p>
+        {/* 1. Information Collected */}
+        <h2 className="text-2xl font-semibold mb-4">1. Information Collected</h2>
+        <p className="mb-4">When using the Bearly app, we may collect the following types of information:</p>
         <ul className="list-disc pl-6 space-y-2 mb-6">
           <li>
-            <strong>Kişisel Bilgiler:</strong> İsteğe bağlı olarak sağladığınız isim, e-posta adresi vb. bilgiler.
+            <strong>Personal Information:</strong> Name, email address, and other information you provide optionally.
           </li>
           <li>
-            <strong>Cihaz Bilgileri:</strong> Cihaz modeli, işletim sistemi, uygulama sürümü, dil tercihi gibi teknik bilgiler.
+            <strong>Device Information:</strong> Device model, operating system, app version, language preference, and other technical information.
           </li>
           <li>
-            <strong>Kullanım Verileri:</strong> Uygulama içi hareketleriniz, öğrenme alışkanlıklarınız ve satın alma geçmişiniz.
+            <strong>Usage Data:</strong> Your in-app activities, learning habits, and purchase history.
           </li>
           <li>
-            <strong>Satın Alma Bilgileri:</strong> Uygulama içi satın alımlar sırasında ödeme sağlayıcıları (Google Play / App Store) aracılığıyla alınan bilgiler.
+            <strong>Purchase Information:</strong> Information obtained through payment providers (Google Play / App Store) during in-app purchases.
           </li>
         </ul>
         <p className="italic mb-8">
-          Not: Ödeme bilgileri (kredi kartı vb.) doğrudan Google/Apple üzerinden alınır, Bearly bu bilgilere erişemez.
+          Note: Payment information (credit cards, etc.) is obtained directly through Google/Apple, and Bearly cannot access this information.
         </p>
 
-        {/* 2. Bilgilerin Kullanımı */}
-        <h2 className="text-2xl font-semibold mb-4">2. Bilgilerin Kullanımı</h2>
-        <p className="mb-4">Topladığımız veriler aşağıdaki amaçlarla kullanılır:</p>
+        {/* 2. Use of Information */}
+        <h2 className="text-2xl font-semibold mb-4">2. Use of Information</h2>
+        <p className="mb-4">The data we collect is used for the following purposes:</p>
         <ul className="list-disc pl-6 space-y-2 mb-8">
-          <li>Uygulamanın performansını ve içeriğini geliştirmek,</li>
-          <li>Kişiselleştirilmiş içerikler sunmak,</li>
-          <li>Abonelik ve satın alma işlemlerini yönetmek,</li>
-          <li>Geri bildirimlerinize yanıt vermek,</li>
-          <li>Yasal yükümlülüklere uymak.</li>
+          <li>To improve the performance and content of the application,</li>
+          <li>To provide personalized content,</li>
+          <li>To manage subscriptions and purchase transactions,</li>
+          <li>To respond to your feedback,</li>
+          <li>To comply with legal obligations.</li>
         </ul>
 
-        {/* 3. Üçüncü Taraflarla Paylaşım */}
-        <h2 className="text-2xl font-semibold mb-4">3. Üçüncü Taraflarla Paylaşım</h2>
-        <p className="mb-4">Verileriniz, aşağıdaki durumlar dışında üçüncü kişilerle paylaşılmaz:</p>
+        {/* 3. Sharing with Third Parties */}
+        <h2 className="text-2xl font-semibold mb-4">3. Sharing with Third Parties</h2>
+        <p className="mb-4">Your data is not shared with third parties except in the following cases:</p>
         <ul className="list-disc pl-6 space-y-2 mb-8">
-          <li>Yasal zorunluluk durumlarında yetkili mercilerle,</li>
-          <li>Uygulama analitiği ve hata takibi için kullanılan hizmet sağlayıcılarla (örneğin Firebase, Google Analytics).</li>
+          <li>With authorized authorities in cases of legal obligation,</li>
+          <li>With service providers used for app analytics and error tracking (e.g., Firebase, Google Analytics).</li>
         </ul>
 
-        {/* 4. Verilerin Saklanması */}
-        <h2 className="text-2xl font-semibold mb-4">4. Verilerin Saklanması</h2>
+        {/* 4. Data Storage */}
+        <h2 className="text-2xl font-semibold mb-4">4. Data Storage</h2>
         <p className="mb-8 leading-relaxed">
-          Toplanan veriler, yalnızca gerekli olduğu sürece ve yürürlükteki yasalara uygun olarak saklanır. Verilerinize yetkisiz erişimi önlemek için gerekli güvenlik önlemleri alınır.
+          Collected data is stored only for as long as necessary and in accordance with applicable laws. Necessary security measures are taken to prevent unauthorized access to your data.
         </p>
 
-        {/* 5. Kullanıcı Hakları */}
-        <h2 className="text-2xl font-semibold mb-4">5. Kullanıcı Hakları</h2>
-        <p className="mb-4">Kullanıcı olarak aşağıdaki haklara sahipsiniz:</p>
+        {/* 5. User Rights */}
+        <h2 className="text-2xl font-semibold mb-4">5. User Rights</h2>
+        <p className="mb-4">As a user, you have the following rights:</p>
         <ul className="list-disc pl-6 space-y-2 mb-8">
-          <li>Hakkınızda hangi verilerin toplandığını öğrenme,</li>
-          <li>Verilerinizi düzeltme veya silme talebi,</li>
-          <li>Veri işlenmesine itiraz etme.</li>
+          <li>To learn what data is collected about you,</li>
+          <li>To request correction or deletion of your data,</li>
+          <li>To object to data processing.</li>
         </ul>
         <p className="mb-8 leading-relaxed">
-          Bu haklardan faydalanmak için bizimle aşağıdaki e-posta adresi üzerinden iletişime geçebilirsiniz.
+          To exercise these rights, you can contact us via the email address below. <a href="mailto:bearly384@gmail.com">bearly384@gmail.com</a>
         </p>
 
-        {/* 6. Çocukların Gizliliği */}
-        <h2 className="text-2xl font-semibold mb-4">6. Çocukların Gizliliği</h2>
+        {/* 6. Children's Privacy */}
+        <h2 className="text-2xl font-semibold mb-4">6. Children's Privacy</h2>
         <p className="mb-8 leading-relaxed">
-          Uygulamamız 13 yaş altındaki çocuklara yönelik değildir. 13 yaşın altındaki kullanıcılardan bilerek kişisel bilgi toplamıyoruz.
+          Our application is not intended for children under 13 years of age.
         </p>
 
-        {/* 7. Gizlilik Politikasında Değişiklikler */}
-        <h2 className="text-2xl font-semibold mb-4">7. Gizlilik Politikasında Değişiklikler</h2>
+        {/* 7. Changes to Privacy Policy */}
+        <h2 className="text-2xl font-semibold mb-4">7. Changes to Privacy Policy</h2>
         <p className="leading-relaxed">
-          Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde veya ilgili platformlarda duyurulur.
+          This privacy policy may be updated from time to time. Changes are announced within the application or on relevant platforms.
         </p>
       </main>
 
